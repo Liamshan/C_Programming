@@ -8,7 +8,11 @@
     printf("%s was %d years old\n", characterName, characterAge);
 
     // Do math
-    printf("Your number is: %f", 5.0 + 4.5);
+    printf("Your number is: %f \n", 5.0 + 4.5);
+
+    //print the pointer of characterAge
+    printf("Pointer is: %p \n", &characterAge);
+
     return 0;
  }
 
@@ -18,4 +22,5 @@
 %d for integer
 %s for string
 %c for character
+%p for pointer address
 */
